@@ -1,6 +1,9 @@
 body {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-  background-color: #d3d3d3
+  background-image: url("https://images.pexels.com/photos/1583884/pexels-photo-1583884.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+  background-position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 li {
@@ -28,6 +31,8 @@ li {
   background-image: url("https://www.freewpheaders.com/wp-content/gallery/food-gallery/burger-sandwich-header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  margin-top: 100px;
 }
 
 .burger-time {
