@@ -1,4 +1,4 @@
-const mysqli = require("mysql");
+const mysql = require("mysql");
 
 let connection;
 
@@ -10,7 +10,7 @@ if (process.env.JAWSDB_URL) {
     port: 3306,
     user: "root",
     password: "Lngbrds9!",
-    database: "burgers_db",
+    database: "burger_db",
   });
 }
 
