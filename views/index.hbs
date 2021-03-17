@@ -7,7 +7,7 @@
       <li>
         {{burger_name}}
         <button class="burgerButtons btn btn-dark" data-id="{{id}}" data-devoured-state="1">Devour</button>
-        <button class="deleteBurger btn btn-dark" data-id="{{id}}">DELETE!</button>
+        <button class="deleteBurger btn btn-dark" data-id="{{id}}">Delete</button>
       </li>
       {{/unless}}
     {{/each}}
@@ -15,13 +15,13 @@
   </div>
 
   <div class="col-lg-6">
-    <h2>Devoured</h2>
+    <h2>Burgers Devoured</h2>
     <ul>
       {{#each burgers}}
         {{#if devoured}}
         <li>
           {{burger_name}}
-          <button class="deleteBurger btn btn-dark" data-id="{{id}}">DELETE!</button>
+          <button class="deleteBurger btn btn-dark" data-id="{{id}}">Delete</button>
         </li>
         {{/if}}
       {{/each}}
