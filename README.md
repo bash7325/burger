@@ -6,7 +6,7 @@ An application to manage the consumption of delicious burgers.
 
 # Deployed link
 
-- [Burger Time]()
+- [Burger Time](https://desolate-falls-26017.herokuapp.com/)
 
 # Criteria Met
 - When a user submits a burger's name, your app will display the burger on the left side of the page -- waiting to be devoured.
@@ -35,6 +35,6 @@ An application to manage the consumption of delicious burgers.
 
 # Screenshot
 
-- ![Burger Time!](https://i.imgur.com/h8Ek19a.png)
+![Burger Time!](https://i.imgur.com/h8Ek19a.png)
 
 
